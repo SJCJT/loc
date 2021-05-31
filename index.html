@@ -12,16 +12,9 @@ function getLocation() {
 }
 
 function showPosition(position) {
-  alert(position.coords.latitude);
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
+  alert(position.coords.latitude+"::"+position.coords.longitude);
 }
 </script>
 <body onload="getLocation()">
-
-<p id="demo"></p>
-
-
-
 </body>
 </html>
